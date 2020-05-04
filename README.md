@@ -28,7 +28,9 @@ ir.implicit_als(spmx,alpha,iterations,lambd,features)             # Main functio
 ir.item_recommend(item_ID,item_vecs,item_lookup,no_items_rec)     # Item vs item recommendation.
 ```
 
-## Contributing
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/BALaka-18/implicit_rec-official/issues)
+
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
