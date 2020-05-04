@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+implicit_reca/__init__.py
+implicit_reca/implicit_reca.py
+implicit_reca.egg-info/PKG-INFO
+implicit_reca.egg-info/SOURCES.txt
+implicit_reca.egg-info/dependency_links.txt
+implicit_reca.egg-info/top_level.txt
