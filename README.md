@@ -1,6 +1,4 @@
-# Implicit_reca [![Known Vulnerabilities](https://snyk.io/test/github/{BALaka-18}/{implicit_rec-official}/badge.svg)](https://snyk.io/test/github/{BALaka-18}/{implicit_rec-official})
-
-
+# Implicit_reca
 
 This is an implementation of the ALS algorithm under Apache Spark's mllib library, designed specifically for designing recommendation systems on implicit data, with the recent update on the regularization parameter.
 
