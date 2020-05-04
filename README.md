@@ -1,4 +1,6 @@
-# Implicit_reca
+# Implicit_reca 
+
+[![HitCount](http://hits.dwyl.com/BALaka-18/implicit_rec-official.svg)](http://hits.dwyl.com/BALaka-18/implicit_rec-official)
 
 This is an implementation of the ALS algorithm under Apache Spark's mllib library, designed specifically for designing recommendation systems on implicit data, with the recent update on the regularization parameter.
 
