@@ -31,12 +31,22 @@ def create_lookup(data):
   If your dataset is not in the predefined format, change it to one. Rename the columns to :
   'artistID','userID','Artist_Name'.
   THIS IS A COMPULSORY STEP.'''
+  
   item_lookup = data[['artistID','userID','Artist_Name']].drop_duplicates()
   item_lookup['artistID'] = item_lookup['artistID'].astype(str)
   return item_lookup
 
 
 def create_sparse(data,name_of_implicit_feautre):
+  '''Function to return the sparse matrix (R)
+  
+  Parameter:
+  data = dataset (must contain the three columns artistID, userID and, Artist_Name)
+  
+  If your dataset is not in the predefined format, change it to one. Rename the columns to :
+  'artistID','userID','Artist_Name'.
+  THIS IS A COMPULSORY STEP.'''
+  
   # Step 2 : Drop the artist name column
   dat = data.copy()
   dat.drop(columns=['Artist_Name'],inplace=True)
