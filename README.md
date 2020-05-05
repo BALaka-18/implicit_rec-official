@@ -13,7 +13,7 @@ It is common in many real-world use cases to only have access to implicit feedba
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install implicit_reca.
 
 ```bash
 pip install implicit_reca
