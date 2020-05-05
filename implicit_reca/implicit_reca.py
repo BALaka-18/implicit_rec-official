@@ -26,7 +26,11 @@ def create_lookup(data):
   '''Function to return the lookup
   
   Parameter:
-  data = dataset (must contain the three columns artistID, userID and, Artist_Name)'''
+  data = dataset (must contain the three columns artistID, userID and, Artist_Name)
+  
+  If your dataset is not in the predefined format, change it to one. Rename the columns to :
+  'artistID','userID','Artist_Name'.
+  THIS IS A COMPULSORY STEP.'''
   item_lookup = data[['artistID','userID','Artist_Name']].drop_duplicates()
   item_lookup['artistID'] = item_lookup['artistID'].astype(str)
   return item_lookup
